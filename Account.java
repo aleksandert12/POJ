@@ -1,3 +1,9 @@
+/*
+Aleksander Tyński
+Kacper Wieczorek
+Zadanie 3 lab3
+Tworzenie klasy Account
+ */
 public class Account {
     private int id;
     private String name;
