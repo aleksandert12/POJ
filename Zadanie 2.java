@@ -1,6 +1,6 @@
 //*******************************************************************
 //
-// Aleksander Tyñski 
+// Aleksander TyÅ„ski 
 // Klaudia Klebba
 // Zadanie 2 klasa Prostokata i jego atrybuty 
 //*******************************************************************
