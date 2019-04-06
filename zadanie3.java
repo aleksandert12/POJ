@@ -1,5 +1,5 @@
 /*
-Aleksander Tyñski
+Aleksander TyÃ±ski
 Klaudia Klebba
     Zad3. Tworzenie metody trojkat
 */
