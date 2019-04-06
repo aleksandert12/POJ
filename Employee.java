@@ -45,5 +45,3 @@ public class Employee {
         return "Employee[id="+id+", name="+firstName+lastName+", salary="+salary+"]";
     }
 }
-
-
