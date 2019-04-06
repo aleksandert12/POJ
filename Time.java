@@ -45,10 +45,45 @@ public class Time {
     public Time nextSecond (){
         if(second==59)
         {
+            if(minute==59)
+            {
+                if(hour==23)
+                {
+                    hour=0;
+                    minute=0;
+                    second=0;
+                }
+                else
+                hour+=1;
+            }
+            else
             minute+=1;
             second=0;
         }
         else
-        second+=1;
+            second+=1;
+        return nextSecond();
+    }
+    public Time previousSecond (){
+        if(second==0)
+        {
+            if(minute==0)
+            {
+                if(hour==0)
+                {
+                    hour=23;
+                    minute=59;
+                    second=59;
+                }
+                else
+                    hour-=1;
+            }
+            else
+                minute-=1;
+            second=59;
+        }
+        else
+            second-=1;
+        return previousSecond();
     }
 }
