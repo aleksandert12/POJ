@@ -1,6 +1,6 @@
 // ************************************************ *******************
 //
-// Aleksander TyÒski 
+// Aleksander Ty√±ski 
 // Klaudia Klebba
 // Zadanie 4 szyfr cezara 
 // ************************************************ *******************
@@ -30,16 +30,16 @@ public class cezar {
 
     public static void main (String [] args) {
       
-      	System.out.println ("Aleksanderî);
-      	System.out.println ("Tynskiî);
-		String a = cezar ("Aleksanderî, 4);
-        String b = cezar ("Tynskiî, 4);
+      	System.out.println ("Aleksander‚Äù);
+      	System.out.println ("Tynski‚Äù);
+		String a = cezar ("Aleksander‚Äù, 4);
+        String b = cezar ("Tynski‚Äù, 4);
       	System.out.println (a);
 		System.out.println (b);
-      	System.out.println ("Klaudiaî);
-      	System.out.println ("Klebbaî);
-		String d = cezar ("Klaudiaî, 4);
-        String e = cezar ("Klebbaî, 4);
+      	System.out.println ("Klaudia‚Äù);
+      	System.out.println ("Klebba‚Äù);
+		String d = cezar ("Klaudia‚Äù, 4);
+        String e = cezar ("Klebba‚Äù, 4);
       	System.out.println (d);
         System.out.println (e);
     }
