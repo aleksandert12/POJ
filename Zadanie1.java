@@ -1,7 +1,7 @@
 //*******************************************************************
-// Aleksander Tyñski 
+// Aleksander TyÃ±ski 
 // Klaudia Klebba
-// Zadanie 1.Utwórz klasê cz³owieka i jego atrybuty
+// Zadanie 1.UtwÃ³rz klasÃª czÂ³owieka i jego atrybuty
 // 
 //*******************************************************************
 
@@ -53,7 +53,7 @@ public class Human {
   public static void main(String[] args){ 
   
     Human Klaudia = new Human(22,55,160,klaudia,kobieta,38,18870);
-    Human Aleksander = new Human (21,90,196,aleksander,mê¿czyzna,48,19465);  
+    Human Aleksander = new Human (21,90,196,aleksander,mÃªÂ¿czyzna,48,19465);  
   }
 }
 
