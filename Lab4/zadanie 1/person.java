@@ -1,33 +1,33 @@
-/ *
+/*
 Autorzy: Aleksander Tyński
         Martyna Klebba
-   Zadnie nr 1 - osoba
-* /
+   Zadnie nr 1 - person
+*/
 
- osoba z klasy  publicznej {
+public class person {
 
-    private  String nazwa;
-    prywatny  adres String ;
+    private String name;
+    private String address;
 
-    publiczna  osoba ( String  name , String  adres )
+    public person (String name,String address)
     {
-        to . nazwa = nazwa;
-        to . adres = adres;
+        this.name=name;
+        this.address=address;
     }
-    public  String  getName ()
+    public String getName()
     {
-        zwróć nazwę;
+        return name;
     }
-    public  String  getAddress ()
+    public String getAddress()
     {
-        adres zwrotny ;
+        return address;
     }
-    public  void  setAddress ( String  address )
+    public void setAddress (String address)
     {
-        to . adres = adres;
+        this.address=address;
     }
-    public  String  toString ()
+    public String toString()
     {
-        return  „ Osoba [imie: „  + nazwa +  ” , Adres: „  + adres +  ” ] ” ;
+        return "Person [imie: " + name + ", Address: " + address + "]";
     }
 }
