@@ -1,6 +1,6 @@
 /*
  * Autorzy: Martyna Klebba
- *           Aleksander Tyński
+ *          Aleksander Tyński
  * Zadnie 2 POINT2D
  * */
 public class Point2D {
