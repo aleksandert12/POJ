@@ -1,19 +1,19 @@
-/ *
+/*
 Autorzy: Aleksander Tyński
         Martyna Klebba
-   Zadnie nr 1 - osoba
-* /
+   Zadnie nr 1 - person
+*/
 
- klasa  publiczna Main {
+public class Main {
 
 
-    public  static  void  main ( String [] args )
+    public static void main (String [] args)
     {
-        osoba Olek  =  nowa osoba ( „ Aleksandra ” , „ Gdynia ” );
-        student Marta  =  nowa studentka ( „ Martyna ” , „ Reda ” , „ informatyka ” , 1 , 650 );
-        personel OlMart  =  nowy personel ( „ Aleksandra ” , „ Reda ” , „ PJATK ” , 6000 );
-        System . na zewnątrz . println ( Olek );
-        System . na zewnątrz . println ( Marta );
-        System . na zewnątrz . println ( OlMart );
+        person Olek = new person ("Aleksandra", "Gdynia");
+        student Marta = new student ("Martyna", "Reda", "informatyka", 1,650);
+        staff OlMart = new staff ("Aleksandra", "Reda", "PJATK",6000);
+        System.out.println(Olek);
+        System.out.println(Marta);
+        System.out.println(OlMart);
     }
 }
