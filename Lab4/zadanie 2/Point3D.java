@@ -1,7 +1,7 @@
 /*
  * Autorzy: Martyna Klebba
  *           Aleksander Tyński
- * Zadnie 2 POINT3D
+ * Zadnie 2 POINT2D
  * */
 public class Point3D extends Point2D {
 
