@@ -1,6 +1,6 @@
 /*
 Autorzy: Martyna Klebba
-    Tyński Aleksander
+    Tyński Aleksander 
     Zadanie 4 
     */
 public class Circle extends Shape {
