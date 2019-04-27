@@ -1,6 +1,6 @@
 /*
 Autorzy: Aleksander Tyński
-        Martyna Klebba
+         Martyna Klebba
    Zadnie nr 1 - person
 */
 public class staff extends person {
