@@ -5,13 +5,12 @@ Autorzy: Aleksander Tyński
      */
 public class Main {
 
-    public static void main(String[] args) 
-    {
+    public static void main(String[] args) {
+
         MyPoint punkt = new MyPoint(1,1);
 
         MyPoint[] punkty = new MyPoint[10];
-        for (int i = 0; i < punkty.length; i++) 
-        {
+        for (int i = 0; i < punkty.length; i++) {
             punkty[i] = new MyPoint(i + 1, i + 1);
         }
         for (MyPoint punk : punkty)
@@ -25,5 +24,12 @@ public class Main {
         System.out.println("Odległość między środkami okręgów "+kolo.distance(kolo1));
         MyTriangle trojkat=new MyTriangle(1,3,1,3,4,5);
         System.out.println(trojkat.getType());
+        MyRectangle prostokat=new MyRectangle(5,2,10,1);
+        System.out.println(prostokat.getArea());
+        Customer klient = new Customer(2,"Kacper",15);
+        System.out.println(klient.toString());
+        Invoice faktura = new Invoice(2,klient,321);
+        System.out.println(faktura.getAmountAfterDiscount());
+
     }
 }
