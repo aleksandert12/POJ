@@ -1,28 +1,30 @@
 /*
 Autorzy: Aleksander Tyński
          Maciej Falkiewicz
-   Zadnie nr 1 - MyPoint
+   Zadnie nr 2 - MyCircle
 */
 
-import java.util.List;
-
 public class MyCircle {
+    private MyPoint center;
     private int radius = 1;
-    private List<MyPoint> mypoint;
-    MyCircle(int x, int y, List<MyPoint> mypoint);
 
-    public MyCircle () {
-    }
+    public MyCircle(){}
+
     public MyCircle (int x, int y, int radius)
     {
-        super(x,y);
+        this.center=new MyPoint(x,y);
+        this.radius=radius;
+    }
+    public MyCircle(MyPoint center, int radius)
+    {
+        this.center=center;
         this.radius=radius;
     }
     public int getRadius()
     {
         return radius;
     }
-    public void setRadius (int radius)
+    public void setRadius(int radius)
     {
         this.radius=radius;
     }
@@ -30,36 +32,38 @@ public class MyCircle {
     {
         return center;
     }
-    public void setCenter (double center)
-    {
-        this.center=center;
-    }
-    public int getCenterx ()
-    {
-        return Centerx;
-    }
-    public void setCenterx (int x)
-    {
-        this.centerx=centerx;
-    }
-    public int getCentery ()
-    {
-        return centery;
-    }
-    public void setcentery (int y)
-    {
-        this.centery=centery;
-    }
-    public int [] getCenterxy={x,y};
 
-    public void setCenterxy (int x, int y)
+    public void setCenter(MyPoint center) {
+        this.center = center;
+    }
+    public int getCenterX()
     {
-        this.x=x;
-        this.y=y;
+        return center.getX();
+    }
+    public int getCenterY()
+    {
+        return center.getY();
+    }
+    public void setCenterXY(int x, int y)
+    {
+        this.center.setXY(x,y);
+    }
+    public double getArea()
+    {
+        return Math.PI*radius*radius;
     }
     public String toString()
     {
-        return "MyCircle[radius = " + radius + ", center = ("  
+        return "MyCircle [promień="+radius+", środek="+center.toString()+"]";
     }
-
+    public double getCircumference()
+    {
+        return 2*Math.PI*radius;
+    }
+    public double distance(MyCircle another)
+    {
+        int xdis = this.center.getX() - another.getCenterX();
+        int ydis = this.center.getY() - another.getCenterY();
+        return Math.sqrt(xdis * xdis + ydis * ydis);
+    }
 }
