@@ -2,7 +2,6 @@
     Dorota Matkowska
     Aleksander Tyński
     Zadanie 8 lab6
-    Klasa Health
      */
 public class UsedCar {
 
