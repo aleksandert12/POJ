@@ -1,6 +1,6 @@
 /*
-    Martyna Klebba
-    Kacper Wieczorek
+    Tyński Aleksander 
+    Dorota Markowska
     Zadanie 5 lab6
     Interface Turner
      */
