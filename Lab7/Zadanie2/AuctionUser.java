@@ -1,5 +1,7 @@
 /*
-    
+    Autorzy: Tyński Aleksander 
+             Michał Kaczmarek
+      Lab7  Zadanie 2
      */
 public class AuctionUser {
     private char type;
