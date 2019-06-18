@@ -1,3 +1,7 @@
+/*
+Autor: Tyński Aleksander
+Zadanie dodatkowe sudoku
+ */
 public class Sudoku
 {
     public static int[][] jakies_sudoku ={
