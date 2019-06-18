@@ -16,7 +16,7 @@ public class CsvLoader implements Dataloader
     @Override
     public void loadData(Cache cache) 
     {
-        Path pathToFile = Paths.get("/Users/Klaudia/Desktop/test.csv");
+        Path pathToFile = Paths.get("/Users/Aleksander/Desktop/test.csv");
 
         try (BufferedReader br = Files.newBufferedReader(pathToFile,
                 StandardCharsets.UTF_8))
